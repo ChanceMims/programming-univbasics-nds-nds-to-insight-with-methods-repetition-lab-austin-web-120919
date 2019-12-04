@@ -53,4 +53,5 @@ def total_gross(source)
     gross_total += director_grosses[director_names[director_index]]
     director_index += 1
   end
+  return gross_total
 end
